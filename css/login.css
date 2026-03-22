@@ -1,0 +1,63 @@
+
+/* Od ovde pocnuva Login */
+.login-box {
+    width: 300px;
+    padding: 40px;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+
+    
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.user-box {
+   position: relative;
+    margin-bottom: 60px;
+    
+    
+}
+
+.user-box input {
+    width: 100%;
+    padding: 8px;
+    background: transparent;         
+    border: 1px solid #060606;          
+    border-radius: 5px;            
+    outline: none;      
+    display: block;
+    margin: 0 auto; 
+          
+    
+}
+
+.user-box label {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    color: #333;
+    pointer-events: none;
+    transition: 0.3s;
+    
+}
+.options {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 20px 0 20px 0;
+    font-size: 12px;
+    gap: 15px;
+    
+    
+   
+}
+.options input[type="checkbox"] {
+    margin-right: 10px;
+
+}

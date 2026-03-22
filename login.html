@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="https://kit.fontawesome.com/b60dcd0c49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid px-3 px-lg-5">
+        <a class="navbar-brand d-flex align-items-center ps-0" href="#">
+          <img src="images/nike-logo.png" alt="Logo" width="120">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+          </ul>
+
+          <form class="d-flex ms-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+          </form>
+
+          <div class="d-flex align-items-center ms-3">
+            <img id="cart" src="images/cart_logo.png" alt="Cart" width="30" height="30" class="me-2">
+            <img id="user" src="images/user_logo.png" alt="User" width="30" height="30">
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+ <div class="breadcrumb">
+         Shop &gt; Login
+        </div>
+      <div class="login-box">
+    <h2>Login</h2>
+     
+        <div class="user-box ">
+            <input type="text" id="email" name="username">
+            <label>Email</label>
+        </div>
+        <div class="user-box">
+            <input type="password" id="password" name="password">
+            <label>Password</label>
+        </div>
+        <div class="options">
+        <input type="checkbox" name="remember"> 
+           <label for="remember">Remember Me</label>
+           
+        <a href="#">Forgot Password?</a>
+        </div>
+       <button onclick="return login()" class="btn btn-primary paypal-btn w-100">Login</button>
+ </div>
+</div>
+  <footer class="bg-light mt-5">
+    <div class="container-lg py-4">
+      <div class="row gy-3">
+        <div class="col-12 col-md-4">
+         <h5>SHOP</h5>
+          <ul class="list-unstyled">
+            <li>Running Shoes</li>
+            <li>Nike Initiator Shoes</li>
+            <li>Gift Cards</li>
+            <li>Sales</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>INFORMATION</h5>
+          <ul class="list-unstyled">
+            <li>About</li>
+            <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Delivery and Return</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>CUSTOMER SUPPORT</h5>
+          <ul class="list-unstyled">
+            <li>Contact</li>
+            <li>Help</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between align-items-center mt-3">
+        <small class="text-muted">© 2025 Designed & Developed by NIKE</small>
+        <div><i class="fa-brands fa-facebook me-2"></i><i class="fa-brands fa-square-instagram"></i></div>
+      </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

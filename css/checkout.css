@@ -1,0 +1,27 @@
+
+
+.product-img {
+    width: 180px;
+ 
+    
+}
+
+.checkout-title {
+     text-align: center; color: #333; margin-bottom: 20px;
+}
+
+.quantity {
+     display: inline-flex; align-items: center; gap: .5rem;
+}
+
+.paypal-payment img {
+     width: 100px; height: auto;
+}
+
+
+.product-card img, .card img {
+     border-radius: .5rem;
+}
+
+
+
