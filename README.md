@@ -1,33 +1,31 @@
 
-# E-commerce веб сајт
+# E-commerce Website
 
-Ово је пројекат респонзивног e-commerce веб сајта направљен помоћу HTML-а, CSS-а и Bootstrapa.
+This is a responsive e-commerce website project created using HTML, CSS, and Bootstrap.
 
-## 📌 Опис
+## 📌 Description
+The project is a simple online store with a modern and responsive design. It includes a product display, a navigation menu, and a basic page structure.
 
-Пројекат представља једноставну онлајн продавницу са модерним и респонзивним дизајном.
-Укључује приказ производа, навигациони мени и основну структуру странице.
-
-## 🚀 Технологије
+## 🚀 Technologies
 
 * HTML5
 * CSS3
 * Bootstrap
 
-## 📂 Структура пројекта
+## 📂 Project Structure
 
 * index.html
-* css/ (стилски фајлови)
-* js/ (JavaScript фајлови)
-* images/ (све слике коришћене у пројекту)
+* css/ (style files)
+* js/ (JavaScript iles)
+* images/ (all images used in the project)
 
-## ✨ Функционалности
+## ✨ Features
 
-* Респонзивни дизајн (прилагођен мобилним уређајима)
-* Секције за приказ производа
-* Навигациона трака
-* Чист и једноставан кориснички интерфејс
+* Responsive design (mobile-friendly)
+* Product display sections
+* Navigation bar
+* Clean and simple user interface
 
-## 📎 Аутор
+## 📎 Author
 
 Blagojcho Kocev
